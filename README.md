@@ -1,7 +1,5 @@
 # 🏠 Skyline Real Estate — House Price Predictor  
 
-![House Price Prediction Banner](assets/banner.png)  
-
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)  
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Regression%20Models-orange)]()  
 [![Streamlit](https://img.shields.io/badge/Streamlit-App%20Interface-red)](https://streamlit.io/)  
@@ -37,7 +35,6 @@ By combining **machine learning algorithms** with **rich datasets**, we aim to:
 
 ## 🧠 Machine Learning Approach  
 
-### 🔍 Workflow Diagram  
 ```mermaid
 flowchart TD
     A[Data Collection] --> B[Data Cleaning & Preprocessing]
@@ -46,30 +43,24 @@ flowchart TD
     D --> E[Model Evaluation: MAE, MSE, RMSE, MAPE, R²]
     E --> F[Best Model Selection: Random Forest]
     F --> G[Streamlit Web App Deployment]
+```
 
+### 📌 Models Used:  
+- **Linear Regression**  
+- **Decision Tree Regression**  
+- **Random Forest Regression** ✅ *(Best performer)*
 
-### Models Used:
-Linear Regression
-
-Decision Tree Regression
-
-Random Forest Regression ✅ (Best performer)
 
 ### 📈 Performance Metrics:
-MAE, MSE, RMSE (Main metric)
+- **MAE, MSE, RMSE (Main metric)**
+- **MAPE, R² Score**
 
-MAPE, R² Score
-
-###⚙️ Tech Stack
-Python 🐍
-
-Scikit-learn — ML algorithms
-
-Pandas / NumPy — Data handling
-
-Matplotlib / Seaborn — Visualizations
-
-Streamlit — Interactive prediction app
+###⚙️ Tech Stack:
+- **Python**
+- **Scikit-learn — ML algorithms**
+- **Pandas / NumPy — Data handling**
+- **Matplotlib / Seaborn — Visualizations**
+- **Streamlit — Interactive prediction app** 
 
 ###🚀 How to Run
 ## Clone the repository

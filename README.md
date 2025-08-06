@@ -48,22 +48,19 @@ flowchart TD
     F --> G[Streamlit Web App Deployment]
 
 
-## Models Used:
+### Models Used:
 Linear Regression
 
 Decision Tree Regression
 
 Random Forest Regression ✅ (Best performer)
 
-📈 Performance Metrics:
+### 📈 Performance Metrics:
 MAE, MSE, RMSE (Main metric)
 
 MAPE, R² Score
 
-🖥️ App Screenshot
-Homepage	Prediction Result
-
-⚙️ Tech Stack
+###⚙️ Tech Stack
 Python 🐍
 
 Scikit-learn — ML algorithms
@@ -74,19 +71,19 @@ Matplotlib / Seaborn — Visualizations
 
 Streamlit — Interactive prediction app
 
-🚀 How to Run
-Clone the repository
+###🚀 How to Run
+## Clone the repository
 
 git clone https://github.com/your-username/skyline-house-price-predictor.git
 cd skyline-house-price-predictor
-Install dependencies
 
+### Install dependencies
 pip install -r requirements.txt
-Run the app
 
-
+### Run the app
 streamlit run app.py
-📌 Future Enhancements
+
+### 📌 Future Enhancements
 📡 Integrate real-time market data APIs
 
 🧠 Add Deep Learning models for better accuracy
